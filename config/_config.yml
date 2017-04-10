@@ -1,0 +1,29 @@
+environment: local
+baseurl: /
+
+source: ../src
+destination: ../_site
+
+markdown: kramdown
+kramdown:
+  auto_ids: false
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  sample:
+    output: true
+    permalink: /:path/
+
+keep_files:
+  - css
+  - js
+
+exclude:
+  - sass
+  - js
