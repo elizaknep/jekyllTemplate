@@ -10,6 +10,6 @@ I use the zen sorting method to organize my stylesheets. The JSON file used by G
 
 For local development, run `grunt ws` in terminal run an initial build, begin browserSync and start the watch task. Run `grunt buildDev` to build the site for local development without running Browsersync or watch. Use `grunt build` or just `grunt` to generate production-ready files.
 
---
+---
 
 This template is a work in progress. I will be updating it as my development process evolves.
