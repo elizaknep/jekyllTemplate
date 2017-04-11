@@ -207,7 +207,7 @@ module.exports = function(grunt) {
       },
       scripts: {
         files: ['<%= prj.src.script %>**/*'],
-        tasks: ['concat:dev', 'clean'],
+        tasks: ['browserify', 'concat:dev', 'clean'],
       }
     }
   });
